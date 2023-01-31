@@ -22,7 +22,7 @@ function save() {
 
 function clearHistory() {
   countStr = " ";
-  saveEl.textContent = "Previous entries:" +countStr;
+  saveEl.textContent = "Previous entries: " + countStr;
   count = 0;
   countEl.textContent = count;
   console.log("hello");
