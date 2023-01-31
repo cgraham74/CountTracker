@@ -1,5 +1,5 @@
 # CountTracker
-Allows you to keep track of n number of times. You can increment, decrement, save and clear. Clicking save, will save and print the current number to the Previous entries field.
+Allows you to keep track of n number of times. You can increment, decrement, save and clear. Clicking save, will save the current number and print the number to the Previous entries field.
 ### 
 Created with JavaScript, HTML, and CSS
 ----
