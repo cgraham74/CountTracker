@@ -3,7 +3,7 @@ Allows you to keep track of n number of times. You can increment, decrement, sav
 ### 
 Created with JavaScript, HTML, and CSS
 ----
-I developed during an interactive website development course and added extra features the course did not cover.
+I developed this during an interactive website development course and added extra features and design elements the course did not cover.
 
 ![tracker_2](https://user-images.githubusercontent.com/18030411/215838904-9e270a79-b740-439e-ab3b-6b4c4f2c2621.PNG)
 
