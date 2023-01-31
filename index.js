@@ -1,17 +1,29 @@
-let bonusPoints = 0;
+let count = 0;
+let countStr = "";
 let countEl = document.getElementById("count-el");
-function increment(){
-    bonusPoints++;
-    countEl.innerText = bonusPoints;
+let saveEl = document.getElementById("save-el");
 
+function increment() {
+  count++;
+  countEl.textContent = count;
 }
 
-function decrement(){
-    bonusPoints--;
-    countEl.innerText = bonusPoints;
-   
+function decrement() {
+  count--;
+  countEl.textContent = count;
 }
 
-function save(){
-    console.log(bonusPoints);
+function save() {
+  countStr = count + " | ";
+  saveEl.textContent += countStr;
+  count = 0;
+  countEl.textContent = count;
+}
+
+function clearHistory() {
+  countStr = " ";
+  saveEl.textContent = "Previous entries:" +countStr;
+  count = 0;
+  countEl.textContent = count;
+  console.log("hello");
 }

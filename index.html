@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>People entered:</h1>
-    <h2 id="count-el">0</h2>
-    
-    <button type="button" id="increment-btn" onclick="increment()">INCREMENT</button>
-    <button type="button" id="decrement-btn" onclick="decrement()">DECREMENT</button>
-    <button type="button" id="save-btn" onclick="save()">SAVE</button>
-    
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+    <title>Count Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Count Tracker:</h1>
+      <h2 id="count-el">0</h2>
+      <div class="btn-container">
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <button id="clear-btn" onclick="clearHistory()">CLEAR</button>
+      </div>
+      <p id="save-el">Previous entries:</p>
+    </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
